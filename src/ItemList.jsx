@@ -56,7 +56,7 @@ const ItemList = () => {
           );
          
         })}
-         <tr><td rowSpan='4'>Total price: ${itemsPrice()} </td></tr>
+         <div><span>Total price: ${itemsPrice()} </span></div>
         </>
       </tbody>
      
